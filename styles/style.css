@@ -195,6 +195,7 @@ a {
    border-radius: 50%;
    height: 60%;
    width: 60%;
+   border: 10px solid var(--primaryIconColorHover);
 }
 
 

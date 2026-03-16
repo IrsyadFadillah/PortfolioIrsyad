@@ -1,2 +1,0 @@
-# PortfolioIrsyad
-Portfolio Irsyad Fadillah

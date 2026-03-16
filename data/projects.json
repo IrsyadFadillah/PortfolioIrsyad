@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Sales Performance Dashboard",
+    "description": "Interactive Power BI dashboard tracking real-time sales KPIs, regional performance, and trend forecasting for a retail chain with 50+ outlets.",
+    "tools": ["Power BI", "SQL", "Excel"],
+    "image": "{data,styles,scripts,images}/Automation Project Standard Expiry Monitoring System.png",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": true,
+    "category": "Data Analytics"
+  },
+  {
+    "id": 2,
+    "title": "HR Process Automation",
+    "description": "End-to-end automation of employee onboarding workflow using Power Automate, reducing manual processing time by 70% and eliminating data entry errors.",
+    "tools": ["Power Automate", "SharePoint", "Excel"],
+    "image": "",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": true,
+    "category": "Automation"
+  },
+  {
+    "id": 3,
+    "title": "Customer Churn Prediction",
+    "description": "Python-based machine learning model to predict customer churn using historical transactional data, achieving 87% accuracy with XGBoost.",
+    "tools": ["Python", "SQL", "Power BI"],
+    "image": "",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": true,
+    "category": "Data Analytics"
+  },
+  {
+    "id": 4,
+    "title": "Inventory Reconciliation Bot",
+    "description": "Automated reconciliation between ERP and warehouse systems using Power Automate and Excel macros, processing 10,000+ records daily.",
+    "tools": ["Power Automate", "Excel", "SQL"],
+    "image": "",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": false,
+    "category": "Automation"
+  },
+  {
+    "id": 5,
+    "title": "Financial Reporting Suite",
+    "description": "Comprehensive financial reporting dashboard with P&L, cash flow, and budget variance analysis built in Power BI with row-level security.",
+    "tools": ["Power BI", "DAX", "SQL"],
+    "image": "",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": false,
+    "category": "Data Analytics"
+  },
+  {
+    "id": 6,
+    "title": "Email Alert Automation",
+    "description": "Automated threshold-based email alert system for KPI deviations, sending contextual reports to stakeholders without manual intervention.",
+    "tools": ["Power Automate", "Power BI", "Outlook"],
+    "image": "",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": false,
+    "category": "Automation"
+  },
+  {
+    "id": 7,
+    "title": "Supply Chain Analytics",
+    "description": "End-to-end supply chain visibility dashboard with supplier performance scoring, lead time analysis, and demand forecasting modules.",
+    "tools": ["Power BI", "Python", "SQL"],
+    "image": "",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": false,
+    "category": "Data Analytics"
+  },
+  {
+    "id": 8,
+    "title": "Process Mapping & Optimization",
+    "description": "Comprehensive business process analysis identifying 12 inefficiency hotspots, resulting in a redesigned workflow saving 200+ man-hours monthly.",
+    "tools": ["Excel", "Power BI", "Visio"],
+    "image": "",
+    "github": "https://github.com/irsyadfadillah",
+    "featured": false,
+    "category": "Process Improvement"
+  }
+]

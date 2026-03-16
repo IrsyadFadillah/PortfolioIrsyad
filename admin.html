@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel — irsyad.dev</title>
+  <link rel="stylesheet" href="styles/admin.css">
+</head>
+<body>
+
+  <!-- ===== LOGIN PAGE ===== -->
+  <div id="login-page" class="login-page">
+    <div class="login-card">
+      <div class="login-logo">irsyad<span>.</span>dev</div>
+      <div class="login-subtitle">ADMIN ACCESS — AUTHORIZED ONLY</div>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter admin password" autocomplete="current-password" required>
+        </div>
+        <button type="submit" class="btn-login">Sign In →</button>
+        <div id="login-error" class="login-error"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== ADMIN PANEL ===== -->
+  <div id="admin-panel">
+    <div class="admin-layout">
+
+      <!-- Sidebar -->
+      <aside class="admin-sidebar">
+        <div class="sidebar-logo">irsyad<span>.</span>admin</div>
+        <ul class="sidebar-nav">
+          <li><a href="#add-section" class="active">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Add Project
+          </a></li>
+          <li><a href="#manage-section">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            Manage
+          </a></li>
+          <li><a href="#json-section">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Export JSON
+          </a></li>
+          <li><a href="../index.html" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View Portfolio
+          </a></li>
+        </ul>
+        <div class="sidebar-logout">
+          <a href="#" id="logout-btn" style="display:flex;align-items:center;gap:8px;color:var(--text3);text-decoration:none;font-size:.8rem;padding:8px 12px;border-radius:8px;transition:all .2s;font-family:'DM Mono',monospace">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+            Sign Out
+          </a>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="admin-main">
+        <div class="admin-header">
+          <h1 class="admin-title">Project Manager</h1>
+          <div class="admin-subtitle">ADD · MANAGE · EXPORT YOUR PROJECTS</div>
+        </div>
+
+        <!-- Alert -->
+        <div id="alert-success" class="alert alert-success"></div>
+        <div id="alert-error" class="alert alert-error"></div>
+
+        <!-- Add Project Form -->
+        <div class="admin-card" id="add-section">
+          <h3>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Add New Project
+          </h3>
+          <form id="add-project-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="proj-title">Project Title *</label>
+                <input type="text" id="proj-title" placeholder="e.g. Sales Performance Dashboard" required>
+              </div>
+              <div class="form-group">
+                <label for="proj-category">Category</label>
+                <select id="proj-category">
+                  <option value="Data Analytics">Data Analytics</option>
+                  <option value="Automation">Automation</option>
+                  <option value="Process Improvement">Process Improvement</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="proj-desc">Description *</label>
+              <textarea id="proj-desc" placeholder="Brief description of the project, its goals, and outcomes..." required></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="proj-tools">Tools Used (comma-separated)</label>
+                <input type="text" id="proj-tools" placeholder="e.g. Power BI, SQL, Excel">
+              </div>
+              <div class="form-group">
+                <label for="proj-github">GitHub URL</label>
+                <input type="url" id="proj-github" placeholder="https://github.com/...">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="proj-image">Image URL (optional)</label>
+              <input type="text" id="proj-image" placeholder="https://... or leave empty for default icon">
+            </div>
+            <div class="form-group">
+              <div class="checkbox-group">
+                <input type="checkbox" id="proj-featured">
+                <label for="proj-featured">Mark as Featured Project</label>
+              </div>
+            </div>
+            <button type="submit" class="btn-submit">Add Project →</button>
+          </form>
+        </div>
+
+        <!-- Manage Projects -->
+        <div class="admin-card" id="manage-section">
+          <h3>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            Manage Projects
+          </h3>
+          <div class="projects-list" id="projects-list">
+            <!-- Dynamic -->
+          </div>
+        </div>
+
+        <!-- Export JSON -->
+        <div class="admin-card" id="json-section">
+          <h3>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Export JSON
+          </h3>
+          <p style="color:var(--text2);font-size:.85rem;margin-bottom:18px;line-height:1.6">
+            Generate the JSON output below, then copy it and save it to <code style="font-family:'DM Mono',monospace;font-size:.78rem;background:var(--bg);padding:2px 7px;border-radius:5px;color:var(--accent)">data/projects.json</code> to update your portfolio.
+          </p>
+          <button id="generate-json" class="btn-submit">Generate JSON</button>
+          <div id="json-output" class="output-area" style="margin-top:20px">// Click "Generate JSON" to see output</div>
+          <button id="copy-json" class="copy-btn">Copy JSON</button>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <script src="scripts/admin.js"></script>
+</body>
+</html>

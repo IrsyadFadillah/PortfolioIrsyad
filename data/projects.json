@@ -4,7 +4,7 @@
     "title": "Sales Performance Dashboard",
     "description": "Interactive Power BI dashboard tracking real-time sales KPIs, regional performance, and trend forecasting for a retail chain with 50+ outlets.",
     "tools": ["Power BI", "SQL", "Excel"],
-    "image": "{data,styles,scripts,images}/Automation Project Standard Expiry Monitoring System.png",
+    "image": "",
     "github": "https://github.com/irsyadfadillah",
     "featured": true,
     "category": "Data Analytics"

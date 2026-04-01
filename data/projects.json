@@ -3,8 +3,8 @@
     "id": 1,
     "title": "SLA Performance Analysis",
     "description": "Analyzed service level agreement (SLA) performance data to identify trends and evaluate operational efficiency using data analysis techniques.",
-    "tools": ["Excel", "Data Analysis"],
-    "image": "",
+    "tools": ["Jupyter Notebook","ERA5 ECMWF", "Data Analysis, Remote Sensing"],
+    "image": "{data,styles,scripts,images}/p7.png",
     "github": "https://github.com/IrsyadFadillah/tren_SLA",
     "featured": false,
     "category": "Data Analytics"
@@ -14,9 +14,9 @@
     "title": "Temperature and pH Prediction using SVR",
     "description": "Developed a machine learning model using Support Vector Regression (SVR) to predict temperature and pH levels based on historical data.",
     "tools": ["Python", "Machine Learning", "SVR"],
-    "image": "",
+    "image": "{data,styles,scripts,images}/p5.png",
     "github": "https://github.com/IrsyadFadillah/SVR_Pendugaan_SuhudanpH",
-    "featured": true,
+    "featured": false,
     "category": "Machine Learning"
   },
   {
@@ -24,7 +24,7 @@
     "title": "PAKAVALI - Marine Conservation Mapping",
     "description": "Built an application to visualize the distribution of marine conservation areas in Indonesia and provide information about marine biodiversity.",
     "tools": ["Web Development", "GIS", "Data Visualization"],
-    "image": "",
+    "image": "{data,styles,scripts,images}/p8.png",
     "github": "https://github.com/IrsyadFadillah/PAKAVALI",
     "featured": false,
     "category": "Web Development"
@@ -34,7 +34,7 @@
     "title": "Administrative System - Prokon Sucofindo",
     "description": "Developed an administrative system to support project control and documentation processes, improving data organization and workflow efficiency.",
     "tools": ["Web Development", "System Design"],
-    "image": "",
+    "image": "{data,styles,scripts,images}/p1.png",
     "github": "https://github.com/IrsyadFadillah/adm_prokon_sucofindo",
     "featured": false,
     "category": "System Development"
@@ -43,20 +43,50 @@
     "id": 5,
     "title": "DKP KUB Data Project",
     "description": "Processed and analyzed data related to community-based fisheries groups (KUB) to support decision-making and data organization.",
-    "tools": ["Data Processing", "Excel"],
-    "image": "",
+    "tools": ["PHP", "MySQL", "Data Management"],
+    "image": "{data,styles,scripts,images}/p3.png",
     "github": "https://github.com/IrsyadFadillah/dkp_kub",
     "featured": false,
-    "category": "Data Analytics"
+    "category": "Web Development"
   },
   {
     "id": 6,
-    "title": "ASIK23 Application",
-    "description": "Developed a web-based application as part of an academic project, focusing on basic system functionality and user interaction.",
-    "tools": ["Web Development"],
-    "image": "",
+    "title": "Bentosight",
+    "description": "This application aims to simplify the process of macrozoobenthos classification based on photos using the Xception model Transfer Learning method.",
+    "tools": ["Python", "Streamlit", "Jupyter Notebook", "Xception"],
+    "image": "{data,styles,scripts,images}/p2.png",
     "github": "https://github.com/IrsyadFadillah/asik23",
     "featured": false,
-    "category": "Web Development"
+    "category": "Deep Learning"
+  },
+  {
+    "id": 7,
+    "title": "Mooney Data Monitoring Dashboard",
+    "description": "Developed a data monitoring system to track Mooney viscosity performance, enabling better quality control and data-driven decision-making in production processes.",
+    "tools": ["Power BI", "Excel", "Data Analysis","Sharepoint", "Power Automate", "Power Query"],
+    "image": "{data,styles,scripts,images}/p9.png",
+    "github": "",
+    "featured": true,
+    "category": "Data Analytics"
+  },
+  {
+    "id": 8,
+    "title": "Standard Expiry Monitoring System",
+    "description": "Designed a tracking system to monitor material expiry standards, helping reduce waste and improve inventory control efficiency.",
+    "tools": ["Excel", "Data Management", "Process Improvement", "Power Automate", "Power BI"],
+    "image": "{data,styles,scripts,images}/Automation Project Standard Expiry Monitoring System.png",
+    "github": "",
+    "featured": true,
+    "category": "Process Improvement"
+  },
+  {
+    "id": 9,
+    "title": "Raw Material Shipment Digitalization System",
+    "description": "Developed a digital tracking system for imported raw material shipments using Microsoft Power Platform, improving visibility and reducing manual data processing.",
+    "tools": ["Power Apps", "Power BI", "Microsoft Lists", "Power Platform"],
+    "image": "{data,styles,scripts,images}/p6.png",
+    "github": "{data,styles,scripts,images}/Final_Project.pdf",
+    "featured": true,
+    "category": "Automation"
   }
 ]

@@ -2,37 +2,38 @@
   "education": [
     {
       "id": "edu-1",
-      "title": "Bachelor of Industrial Engineering",
-      "organization": "Universitas Indonesia",
+      "title": "Bachelor of Science",
+      "organization": "Universitas Pendidikan Indonesia",
       "duration": "2021 – 2025",
-      "description": "Focused on operations research, business process management, and data-driven decision making. Final thesis on predictive analytics for supply chain optimization.",
+      "description": "Focused on operations research, business process management, and data-driven decision making. Final thesis on applied geospatial data processing and analysis techniques using remote sensing for mapping and assessing the vulnerability of a region.",
       "type": "education"
     },
     {
       "id": "edu-2",
-      "title": "Data Analytics Certification",
-      "organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+      "title": "Digital Literacy Certification",
+      "organization": "Certiport's IC3 ",
       "duration": "2023",
-      "description": "Nationally recognized professional certification covering statistical analysis, data visualization, and business intelligence tool proficiency.",
+      "description": "" ,
       "type": "education"
     }
   ],
   "experience": [
     {
       "id": "exp-1",
-      "title": "Data & Process Improvement Intern",
-      "organization": "PT Pertamina (Persero)",
-      "duration": "Jun 2024 – Dec 2024",
-      "description": "Built real-time operational dashboards using Power BI and automated weekly reporting workflows with Power Automate, reducing manual effort by 65%.",
+      "title": "Technical Apprentice (Digitalaization Project)",
+      "organization": "PT Bridgestone Tire Indonesia",
+      "duration": "Nov 2025 – Current",
+      "description": "Built real-time operational dashboards using Power BI and automated weekly reporting workflows with Power Automate, reducing manual effort by 80%.",
       "type": "experience"
     },
     {
       "id": "exp-2",
-      "title": "Business Analyst Intern",
-      "organization": "PT Telkom Indonesia",
-      "duration": "Jan 2024 – May 2024",
-      "description": "Conducted end-to-end process mapping for the customer service division, identified key bottlenecks, and proposed improvements that saved 150+ man-hours monthly.",
+      "title": "Raw Material Purchasing (Digitalaization Project)",
+      "organization": "PT Bridgestone Tire Indonesia",
+      "duration": "Sep 2024 – Dec 2024",
+      "description": "Streamlined the tracking process for imported raw materials by developing an automated system using Microsoft Power Platform that reduced daily data processing time by over 75% (from 40-60 minutes to 7-15 minutes)",
       "type": "experience"
     }
   ]
 }
+  

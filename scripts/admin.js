@@ -1,5 +1,5 @@
 // admin.js
-const ADMIN_PASSWORD = 'irsyad2024';
+const ADMIN_PASSWORD = 'irsyad2025';
 const STORAGE_KEY = 'admin-projects';
 
 function checkLogin() { return sessionStorage.getItem('admin-auth') === 'true'; }

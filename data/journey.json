@@ -20,7 +20,7 @@
   "experience": [
     {
       "id": "exp-1",
-      "title": "Technical Apprentice (Digitalaization Project)",
+      "title": "Technical Apprentice (Digitalization Project)",
       "organization": "PT Bridgestone Tire Indonesia",
       "duration": "Nov 2025 – Current",
       "description": "Built real-time operational dashboards using Power BI and automated weekly reporting workflows with Power Automate, reducing manual effort by 80%.",
@@ -28,7 +28,7 @@
     },
     {
       "id": "exp-2",
-      "title": "Raw Material Purchasing (Digitalaization Project)",
+      "title": "Raw Material Purchasing (Digitalization Project)",
       "organization": "PT Bridgestone Tire Indonesia",
       "duration": "Sep 2024 – Dec 2024",
       "description": "Streamlined the tracking process for imported raw materials by developing an automated system using Microsoft Power Platform that reduced daily data processing time by over 75% (from 40-60 minutes to 7-15 minutes)",

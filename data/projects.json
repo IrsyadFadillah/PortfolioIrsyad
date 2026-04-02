@@ -63,7 +63,7 @@
     "id": 7,
     "title": "Mooney Data Monitoring Dashboard",
     "description": "Developed a data monitoring system to track Mooney viscosity performance, enabling better quality control and data-driven decision-making in production processes.",
-    "tools": ["Power BI", "Excel", "Data Analysis","Sharepoint", "Power Automate", "Power Query"],
+    "tools": ["Power BI", "VBA", "Data Analysis","Sharepoint", "Power Automate", "Power Query"],
     "image": "{data,styles,scripts,images}/p9.png",
     "github": "",
     "featured": true,
